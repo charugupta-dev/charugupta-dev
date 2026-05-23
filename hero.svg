@@ -1,0 +1,111 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww30040\viewh18980\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">\
+  <defs>\
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">\
+      <stop offset="0%" stop-color="#38bdf8"/>\
+      <stop offset="100%" stop-color="#818cf8"/>\
+    </linearGradient>\
+    <filter id="glow">\
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>\
+      <feMerge>\
+        <feMergeNode in="blur"/>\
+        <feMergeNode in="SourceGraphic"/>\
+      </feMerge>\
+    </filter>\
+  </defs>\
+\
+  <!-- Background -->\
+  <rect width="880" height="300" fill="#0d1117"/>\
+\
+  <!-- === LEFT ZONE: Identity === -->\
+\
+  <!-- Name -->\
+  <text x="48" y="95" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="40" font-weight="600" fill="#f0f0f0" opacity="0">\
+    Charu Gupta\
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze"/>\
+  </text>\
+\
+  <!-- Subtitle -->\
+  <text x="50" y="125" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" fill="#8b949e" opacity="0">\
+    Senior Flutter &amp; iOS Developer\
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.2s" fill="freeze"/>\
+  </text>\
+\
+  <!-- Brief descriptor -->\
+  <text x="50" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#484f58" opacity="0">\
+    Cross platform \'b7 Native iOS \'b7 performance tuning \'b7 analytics\
+    <animate attributeName="opacity" from="0" to="0.8" dur="0.6s" begin="0.7s" fill="freeze"/>\
+  </text>\
+\
+  <!-- === RIGHT ZONE: Constellation === -->\
+\
+  <!-- Connection lines -->\
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1" fill="none">\
+    <line x1="590" y1="65" x2="700" y2="40"/>\
+    <line x1="590" y1="65" x2="640" y2="145"/>\
+    <line x1="700" y1="40" x2="800" y2="70"/>\
+    <line x1="700" y1="40" x2="750" y2="130"/>\
+    <line x1="800" y1="70" x2="750" y2="130"/>\
+    <line x1="800" y1="70" x2="830" y2="170"/>\
+    <line x1="640" y1="145" x2="750" y2="130"/>\
+    <line x1="640" y1="145" x2="570" y2="230"/>\
+    <line x1="640" y1="145" x2="690" y2="220"/>\
+    <line x1="750" y1="130" x2="830" y2="170"/>\
+    <line x1="750" y1="130" x2="690" y2="220"/>\
+    <line x1="570" y1="230" x2="690" y2="220"/>\
+    <line x1="690" y1="220" x2="790" y2="255"/>\
+    <line x1="830" y1="170" x2="790" y2="255"/>\
+  </g>\
+\
+  <!-- Nodes with independent pulse rhythms -->\
+  <g filter="url(#glow)">\
+    <circle cx="590" cy="65" r="7" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="700" cy="40" r="5" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.4;0.85;0.4" dur="4s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="800" cy="70" r="8" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.35;0.95;0.35" dur="2.5s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="640" cy="145" r="9" fill="url(#nodeGrad)" opacity="0.6">\
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="750" cy="130" r="6" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.8s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="830" cy="170" r="7" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.35;0.85;0.35" dur="4.2s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="570" cy="230" r="5" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.2s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="690" cy="220" r="7" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.45;0.9;0.45" dur="2.6s" repeatCount="indefinite"/>\
+    </circle>\
+    <circle cx="790" cy="255" r="4" fill="url(#nodeGrad)" opacity="0.5">\
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.8s" repeatCount="indefinite"/>\
+    </circle>\
+  </g>\
+\
+  <!-- Signal dot A: flows through the main path -->\
+  <circle r="2.5" fill="#38bdf8" opacity="0">\
+    <animateMotion dur="8s" repeatCount="indefinite"\
+      path="M590,65 L640,145 L750,130 L830,170 L790,255"/>\
+    <animate attributeName="opacity" values="0;0.9;0.9;0.9;0" dur="8s" repeatCount="indefinite"/>\
+  </circle>\
+\
+  <!-- Signal dot B: secondary path, offset start -->\
+  <circle r="2" fill="#818cf8" opacity="0">\
+    <animateMotion dur="10s" repeatCount="indefinite" begin="3s"\
+      path="M700,40 L590,65 L640,145 L570,230 L690,220"/>\
+    <animate attributeName="opacity" values="0;0.7;0.7;0.7;0" dur="10s" repeatCount="indefinite" begin="3s"/>\
+  </circle>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl336\slmult1\pardirnatural\partightenfactor0
+\cf0 </svg>}
