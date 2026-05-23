@@ -1,5 +1,4 @@
-# Charu Gupta
-Senior Flutter & iOS Developer
+<img src="./hero.svg" width="100%" alt="Charu Gupta — Flutter & iOS Developer"/>
 
 I develop high-quality, scalable mobile applications. With over seven years of experience, I focus on innovative solutions and dynamic content management for industry leaders like Zensar Technologies, Dew Solutions, Infosys, and IBM.
 
