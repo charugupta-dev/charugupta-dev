@@ -26,7 +26,7 @@
 
   <!-- Subtitle -->
   <text x="50" y="125" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" fill="#8b949e" opacity="0">
-    Flutter &amp; iOS Engineer
+    iOS &amp; Flutter Engineer
     <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.2s" fill="freeze"/>
   </text>
 
